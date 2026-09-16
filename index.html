@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS Secure Web Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">AWS CAPSTONE</div>
+    <div class="nav">
+      <a href="#home">Home</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#security">Security</a>
+      <a href="#monitoring">Monitoring</a>
+    </div>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div>
+    <p class="tag">AWS CLOUD PROJECT</p>
+    <h1>Secure & Highly Available<br><span>Web Application</span></h1>
+    <p class="lead">A cloud infrastructure project built with Amazon VPC, EC2, S3, IAM, CloudWatch and SNS.</p>
+    <a class="button" href="#architecture">Explore Project</a>
+  </div>
+</section>
+
+<section id="architecture" class="section">
+  <p class="tag">ARCHITECTURE</p>
+  <h2>Built on AWS</h2>
+  <p class="muted">A custom AWS network with secure access controls, private storage and monitoring.</p>
+  <div class="cards">
+    <div class="card"><div class="icon">🌐</div><h3>Amazon VPC</h3><p>Custom VPC with two public subnets across different Availability Zones.</p></div>
+    <div class="card"><div class="icon">🖥️</div><h3>Amazon EC2</h3><p>Ubuntu EC2 instance running the Nginx web server.</p></div>
+    <div class="card"><div class="icon">📦</div><h3>Amazon S3</h3><p>Private object storage for website assets and project files.</p></div>
+  </div>
+</section>
+
+<section id="security" class="section dark">
+  <p class="tag">SECURITY</p>
+  <h2>Security First</h2>
+  <div class="cards">
+    <div class="card"><h3>🔐 IAM Role</h3><p>EC2 uses controlled permissions for S3 and CloudWatch.</p></div>
+    <div class="card"><h3>🛡️ Security Group</h3><p>SSH is restricted while HTTP is publicly accessible.</p></div>
+    <div class="card"><h3>🔒 Private S3</h3><p>Public access to the S3 bucket is blocked.</p></div>
+  </div>
+</section>
+
+<section id="monitoring" class="section">
+  <p class="tag">MONITORING</p>
+  <h2>CloudWatch Monitoring</h2>
+  <p class="muted">CloudWatch monitors EC2 CPU utilization and can trigger an SNS email alert.</p>
+  <div class="monitor">
+    <div><strong>70%</strong><span>CPU Threshold</span></div>
+    <div><strong>2</strong><span>Consecutive Periods</span></div>
+    <div><strong>SNS</strong><span>Email Alert</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <p class="tag">PROJECT</p>
+  <h2>AWS Secure Web Application</h2>
+  <p class="muted">This project demonstrates secure and monitored web application infrastructure using Amazon Web Services.</p>
+  <div class="tags"><span>VPC</span><span>EC2</span><span>S3</span><span>IAM</span><span>CloudWatch</span><span>SNS</span><span>Nginx</span></div>
+</section>
+
+<footer>AWS Cloud Capstone Project · Built with Amazon Web Services</footer>
+</body>
+</html>
